@@ -15,5 +15,9 @@ int main()
         cout << "Max is A = " << a;
     else
         cout << "Max is B = " << b;
+    if (a < b)
+        cout << "Min is A = " << a;
+    else
+        cout << "Min is B = " << b;
     return 0;
 }
